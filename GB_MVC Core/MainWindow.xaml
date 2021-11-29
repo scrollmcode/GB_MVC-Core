@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <TextBlock Text="Результат" TextWrapping="Wrap" Height="151" LineHeight="20" TextAlignment="Center" FontSize="24"/>
-        <Button x:Name="bStart" Content="Button" Height="134"/>
+        <TextBlock x:Name="tbResult" Text="Результат" TextWrapping="Wrap" Height="151" LineHeight="20" TextAlignment="Center" FontSize="24"/>
+        <Button x:Name="bStart" Content="Start" Height="134"/>
+        <TextBlock Text="Время ожидания"></TextBlock>
+        <TextBox x:Name="tbTimeWait" Text="1"/>
+        <TextBlock x:Name="tbStatus" Text=""></TextBlock>
 
 
     </StackPanel>
